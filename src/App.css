@@ -4,9 +4,44 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
   background-image: url('/background.jpg'); /* Ensure the image is in the public folder */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
+}
+
+.result, .content {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#yes {
+  background-color: red;
+  color: white;
+}
+
+button#no {
+  background-color: gray;
+  color: white;
+  position: absolute;
 }
