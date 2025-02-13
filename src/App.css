@@ -12,11 +12,14 @@
 }
 
 .result, .content {
-  background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
   padding: 20px;
   border-radius: 10px;
   text-align: center;
   color: white;
+}
+
+.result h1, .content h1 {
+  color: black; /* Makes the Valentine text black */
 }
 
 .buttons {
