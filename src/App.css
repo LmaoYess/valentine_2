@@ -11,22 +11,14 @@
   background-repeat: no-repeat;
 }
 
-.text-box {
-  background-color: rgba(255, 182, 193, 0.8); /* Light pink with some transparency */
+.result, .content {
   padding: 20px;
-  border-radius: 20px; /* Rounded corners */
+  border-radius: 10px;
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: black; /* Ensures text stays black */
-  max-width: 80%;
-  margin-bottom: 20px;
 }
 
-.result, .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.result h1, .content h1 {
+  color: hotpink; /* Makes the Valentine text black */
 }
 
 .gif {
